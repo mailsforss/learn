@@ -54,6 +54,10 @@ public class ServerServiceImpl implements ServerService {
 		log.info("Fetching  server by id {}:", id);
 		return serverRepo.findById(id).get();
 	}
+	
+	/**
+	 * This method updates the server
+	 */
 
 	@Override
 	public Server update(Server server) {
