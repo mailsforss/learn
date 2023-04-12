@@ -56,7 +56,7 @@ public class ServerServiceImpl implements ServerService {
 	}
 	
 	/**
-	 * This method updates the server 
+	 * This method updates the servers
 	 */
 
 	@Override
